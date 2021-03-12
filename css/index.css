@@ -144,3 +144,89 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/* ------------------------------------ */
+/* ----------Top of home here----------*/
+/* ------------------------------------ */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    padding-top:3%;
+    color:black;
+}
+#top{ /*Section of Navbar*/
+    width: 800px;
+    margin: 1% auto;
+}
+.top-img{
+    margin-top: 4%;
+}
+/*-----------box colors ------------*/
+/* could've hard coded this into html but I like to keep all my styling(s) in the same spot */
+#box1{background-color: teal;}
+#box2{background-color: gold;}
+#box3{background-color: cadetblue;}
+#box4{background-color: coral;}
+#box5{background-color: crimson;}
+#box6{background-color: forestgreen;}
+#box7{background-color: darkorchid;}
+#box8{background-color: hotpink;}
+#box9{background-color: indigo;}
+#box10{background-color: dodgerblue;}
+
+
+
+/* -------------------------------- */
+/* -------------ABOUT PAGE--------- */
+/* --------------------------------- */
+
+
+
+#about-paragraph p{
+    border-bottom: black dashed 1px;
+    padding-bottom: 3%;
+}
+
+
+/* -------------------------------- */
+/* -----------middle boxes-------------*/
+
+#outside-boxes{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-page-box{
+    margin-top:5%;
+    width:50%;
+}
+.about-page-box div{
+    border-bottom: black dashed 1px;
+    width: 92%;
+}
+.about-page-box h3{
+    margin: 1% auto;
+}
+.about-page-box p{
+    margin: 3% auto;
+}
+.about-page-box button{
+    margin-bottom: 4%;
+    padding: 2% 6%;
+    border: black solid 2px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+/* ---------------------------- */
+/* ------Let's Work Together-------- */
+
+#work-together{
+    margin: 4% auto;
+}
