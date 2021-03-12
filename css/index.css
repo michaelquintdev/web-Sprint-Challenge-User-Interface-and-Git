@@ -149,7 +149,28 @@ footer nav a {
 .navbar{
     display: flex;
     justify-content: space-around;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    padding-top:3%;
 }
 section{
-    width:
+    width: 800px;
+    margin: 1% auto;
 }
+.top-img{
+    margin-top: 4%;
+}
+/*-----------box colors ------------*/
+/* could've hard coded this into html but I like to keep all my styling(s) in the same spot */
+#box1{background-color: teal;}
+#box2{background-color: gold;}
+#box3{background-color: cadetblue;}
+#box4{background-color: coral;}
+#box5{background-color: crimson;}
+#box6{background-color: forestgreen;}
+#box7{background-color: darkorchid;}
+#box8{background-color: hotpink;}
+#box9{background-color: indigo;}
+#box10{background-color: dodgerblue;}
