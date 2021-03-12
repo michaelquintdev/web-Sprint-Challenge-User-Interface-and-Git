@@ -144,3 +144,12 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* ----------Top of page here ----------*/
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+section{
+    width:
+}
