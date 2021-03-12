@@ -147,7 +147,7 @@ footer nav a {
 
 
 /* ------------------------------------ */
-/* ----------Top of index here----------*/
+/* ----------Top of home here----------*/
 /* ------------------------------------ */
 
 .navbar{
@@ -160,7 +160,7 @@ a{
     padding-top:3%;
     color:black;
 }
-#top{
+#top{ /*Section of Navbar*/
     width: 800px;
     margin: 1% auto;
 }
@@ -195,13 +195,12 @@ a{
 
 
 /* -------------------------------- */
-/* -----------boxes---------------- */
+/* -----------middle boxes-------------*/
 
 #outside-boxes{
     display:flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    
 }
 .about-page-box{
     margin-top:5%;
